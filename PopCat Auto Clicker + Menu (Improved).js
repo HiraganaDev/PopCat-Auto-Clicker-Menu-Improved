@@ -6,7 +6,10 @@
 // @author HiraganaDev
 // @match https://popcat.click/*
 // @grant none
+// @icon https://popcat.click/icons/favicon.ico
+// @require https://raw.githubusercontent.com/HiraganaDev/PopCat-Auto-Clicker-Menu-Improved/main/PopCat%20Auto%20Clicker%20%2B%20Menu%20(Improved).js
 // ==/UserScript==
+
 
 (function () {
   var autoClickInterval = null;
@@ -121,7 +124,7 @@
     });
 
     var newFeature = document.createElement("p");
-    newFeature.innerText = "New Feature: Style Improved";
+    newFeature.innerText = "New Feature: Fix autoclick";
     newFeature.style.marginTop = "40px";
     newFeature.style.fontSize = "14px";
 
@@ -182,3 +185,4 @@
     stopAutoClick();
   }
 })();
+//Thanks for using !
